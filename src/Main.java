@@ -9,7 +9,7 @@ public class Main {
 
         final String[] words = {"Michal", "Skolenie", "Java"};
 
-        final int MAX_INCORRECT_GUESSES = 6;
+        final int MAX_INCORRECT_GUESSES = 7;
         int incorrectGuesses = 0;
 
         final String wordToGuess = selectWord(words, random);
