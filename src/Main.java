@@ -43,8 +43,6 @@ public class Main {
     public static String revealLetter(String wordToGuess, String hiddenWord, char letter) {
         char[] hiddenWordChars = hiddenWord.toCharArray();
 
-        char normalizedInputLetter = Character.toLowerCase(letter);
-
         for (int i = 0; i < wordToGuess.length(); i++) {
             if (wordToGuess.charAt(i) == letter) {
                 hiddenWordChars[i] = letter;
